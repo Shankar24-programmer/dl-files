@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: black;
 }
 
 a {
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #ffe100;
 }
 
 #preloader:before {
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid #ffe100;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -293,10 +293,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #ffe100;
+  color: black;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #ffe100;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -553,7 +553,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #f5e462;
+  color: #ffe100;
   line-height: 1;
 }
 .about .content p:last-child {
@@ -600,7 +600,7 @@ section {
 }
 .why-us .content p {
   font-size: 15px;
-  color: #848484;
+  color: black;
 }
 .why-us .img {
   background-size: contain;
@@ -970,7 +970,8 @@ section {
 }
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
 }
 .team .member .pic img {
@@ -1031,7 +1032,7 @@ section {
   margin: 0 2px;
 }
 .team .member .social a:hover {
-  background: #47b2e4;
+  background: #ffe100;
 }
 .team .member .social a:hover i {
   color: #fff;
@@ -1431,7 +1432,7 @@ section {
 }
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f3f5fa;
+  background: #f8faf3;
   text-align: center;
   font-size: 15px;
   color: #444444;
@@ -1442,7 +1443,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: black;
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
@@ -1529,7 +1530,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
